@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display:flex;
+    background-color: rgb(47, 47, 168);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#details{
+    color: black;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+#name{
+    width: fit-content;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    padding: 1px;
+    font-size: rem;
+    opacity: 0;
+    padding: 0.5rem;
+}
+
+#time{
+    width: fit-content;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: max-content;
+}
+
+svg path{
+    cursor: pointer;
+}
+
+
+/* svg path:hover{
+    fill: gray;
+} */
